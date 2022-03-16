@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    font-family: "OpenSansRegular", sans-serif;
 }
 
 body{
@@ -17,19 +18,30 @@ p{
   margin-top: 20px;
 }
 
-
+.link{
+  display: block;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #f00;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+}
 p::before {
   content: " ";
   display: inline-block;
-  width: 15px;
+  width: 20px;
 }
 
 h2{
   font-size: 1.4em;
+  margin-top: 20px;
 }
 h3{
   font-size: 1.1em;
-  margin-top: 20px;
+  margin: 20px 0;
   /* color: yellow; */
 }
 h3::before {
@@ -173,10 +185,12 @@ h4{
   .myText2 {
     font-size: 24px;
     background-color: #FF0;
-    padding: 5px 10px;
+    background-color: #177ab4;
+    color: white;
+    padding: 15px 10px;
     display: block;
-    margin-bottom: 20px;
-    color: #F00;
+    margin: 20px 0;
+    line-height: 33px;
   }
   
 
@@ -226,7 +240,7 @@ h4{
   }
 
   .container .article{
-      width: min(90% , 1200px);
+      /* width: min(90% , 1200px); */
       margin: auto;
   }
 
@@ -557,10 +571,10 @@ h4{
     padding-left: 0px;
   }
   
-  .post-nav span a:last-child {
+  /* .post-nav span a:last-child {
     font-family: "OpenSansSemibold";
   }
-  
+   */
   @media (max-width: 530px) {
     .post-nav .post-nav__all-link {
       display: none;
